@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,35 +12,32 @@
     </style>
 </head>
 <body>
-    <a-scene embedded arjs>
+    <a-scene embedded arjs='sourceType: webcam;'>
         <!-- Marker for TRAPPIST-1e -->
         <a-marker preset="hiro">
             <a-image src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Proxima_Centauri_b.jpg" 
                      scale="2 2 2" 
-                     position="0 0 0">
-            </a-image>
-            <a-text value="TRAPPIST-1e" position="0 2 0" color="#FFF" scale="2 2 2"></a-text>
-            <a-text value="Light years away: 40.7" position="0 1.5 0" color="#FFF" scale="1 1 1"></a-text>
+                     position="0 0 0"></a-image>
+            <a-text value="TRAPPIST-1e" position="0 1.5 0" color="#FFF" scale="2 2 2"></a-text>
+            <a-text value="Light years away: 40.7" position="0 1 0" color="#FFF" scale="1 1 1"></a-text>
         </a-marker>
 
         <!-- Marker for Proxima Centauri b -->
         <a-marker preset="kanji">
             <a-image src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Proxima_Centauri_b.jpg" 
                      scale="2 2 2" 
-                     position="0 0 0">
-            </a-image>
-            <a-text value="Proxima Centauri b" position="0 2 0" color="#FFF" scale="2 2 2"></a-text>
-            <a-text value="Light years away: 4.2" position="0 1.5 0" color="#FFF" scale="1 1 1"></a-text>
+                     position="0 0 0"></a-image>
+            <a-text value="Proxima Centauri b" position="0 1.5 0" color="#FFF" scale="2 2 2"></a-text>
+            <a-text value="Light years away: 4.2" position="0 1 0" color="#FFF" scale="1 1 1"></a-text>
         </a-marker>
 
         <!-- Marker for Kepler-442b -->
         <a-marker preset="data-color">
             <a-image src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Kepler-442b_%28nB%29.png" 
                      scale="2 2 2" 
-                     position="0 0 0">
-            </a-image>
-            <a-text value="Kepler-442b" position="0 2 0" color="#FFF" scale="2 2 2"></a-text>
-            <a-text value="Light years away: 1,200" position="0 1.5 0" color="#FFF" scale="1 1 1"></a-text>
+                     position="0 0 0"></a-image>
+            <a-text value="Kepler-442b" position="0 1.5 0" color="#FFF" scale="2 2 2"></a-text>
+            <a-text value="Light years away: 1,200" position="0 1 0" color="#FFF" scale="1 1 1"></a-text>
         </a-marker>
 
         <a-entity camera></a-entity>
